@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Список любимых песен</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <h1>Список любимых песен</h1>
+
+  <section>
+    <h2>Добавить песню</h2>
+    <form id="song-form">
+      <input type="text" name="author" placeholder="Автор" required />
+      <input type="text" name="name" placeholder="Название" required />
+      <input type="number" name="duration" placeholder="Длительность (сек)" />
+      <input type="text" name="genre" placeholder="Жанр" />
+      <label>
+        <input type="checkbox" name="favorite" /> Избранная
+      </label>
+      <button type="submit">Сохранить</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Список</h2>
+    <ul id="songs-list"></ul>
+  </section>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
