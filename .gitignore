@@ -4,6 +4,8 @@ package-lock.json
 npm-shrinkwrap.json
 *.log
 *.gz
+# WebStorm
+.idea
 
 # Yarn
 yarn-error.log
